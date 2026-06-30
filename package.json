@@ -1,7 +1,10 @@
-﻿{
+{
   "name": "sgpulse-mongodb",
   "version": "1.0.0",
   "main": "mongodb-server.js",
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "mongodb": "^6.3.0",

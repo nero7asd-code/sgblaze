@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3009;
 
 // Configuração do MongoDB com opções de DNS
-const MONGO_URI = 'mongodb+srv://menorarey4444_db_user:o3OJ26nqf9FNtCq9@cluster0.x3xdouz.mongodb.net/sgpulse?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = 'mongodb+srv://menorarey4444_db_user:o3OJ26nqf9FNtCq9@cluster0.x3xdouz.mongodb.net/?appName=Cluster0';
 const DATABASE_NAME = 'sgpulse';
 const USERS_COLLECTION = 'users';
 
